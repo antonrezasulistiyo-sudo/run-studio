@@ -37,6 +37,7 @@ Buka situs di HP: Chrome > Tambahkan ke layar utama (iOS: Share > Add to Home Sc
 - Token Strava disimpan di cookie httpOnly (aman dari JavaScript). Cocok untuk satu pengguna.
 - Auto-sync: aplikasi menyinkronkan ulang tiap 5 menit dan saat tab dibuka kembali.
 - Galeri, video, dan GPX unggahan disimpan di IndexedDB browser (per perangkat).
+  
 - Export MP4 (H.264) dibuat di browser lewat WebCodecs + mp4-muxer, tanpa server dan tanpa ffmpeg. Peta 3D dirender frame demi frame di kanvas tersembunyi 1920×1080 (atau 1080×1920 untuk Story), lalu overlay statistik ditempel. Butuh Chrome/Edge/Safari terbaru.
 - Export MP4 memakai tile peta dari MapTiler: pastikan kuota key Anda cukup (30 dtk video bisa memuat banyak tile).
 
